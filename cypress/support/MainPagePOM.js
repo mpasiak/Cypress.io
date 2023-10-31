@@ -1,6 +1,7 @@
 import testData from "./testData";
 
 class MainPage {
+    
     slider(){
         return cy.get('#slider');
     }

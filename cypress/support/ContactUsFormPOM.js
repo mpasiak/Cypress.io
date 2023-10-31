@@ -37,6 +37,15 @@ class ContactForm {
           
           cy.get('button[data-qa="popup-button"]').click();
     }
+
+    verifySuccessMessage(){
+        return cy.contains("Success! Your details have been submitted successfully.");
+    }
+
+    homeButton(){
+        return cy.get('a.btn.btn-success[href="/"]');
+
+    }
 }
 
 export default new ContactForm();
