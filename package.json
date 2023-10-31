@@ -1,0 +1,15 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "npx cypress open"
+  },
+  "author": "Malgorzata Pasiak",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.1",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
